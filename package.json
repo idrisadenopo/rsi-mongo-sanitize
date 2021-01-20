@@ -1,0 +1,37 @@
+{
+  "name": "rsi-mongo-sanitize",
+  "version": "1.0.0",
+  "description": "Helper to sanitize mongodb queries against query selector injections while allowing RSI query parameters",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watchAll",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "clean": "rm -rf coverage dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idrisadenopo/rsi-mongo-sanitize.git"
+  },
+  "keywords": [
+    "rsi",
+    "mongodb",
+    "sanitize",
+    "query",
+    "selector",
+    "injection"
+  ],
+  "author": "Idris Adenopo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idrisadenopo/rsi-mongo-sanitize/issues"
+  },
+  "homepage": "https://github.com/idrisadenopo/rsi-mongo-sanitize#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}
